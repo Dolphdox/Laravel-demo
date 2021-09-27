@@ -1,0 +1,72 @@
+---------------------------------------------------------------
+[ 2020-04-16T15:49:38+08:00 ] 0.0.0.0 GET localhost/
+[运行时间：0.450981s] [吞吐率：2.22req/s] [内存消耗：377.15kb] [文件加载：56]
+[ info ] [ LANG ] C:\Users\wcz\Documents\GitHub\thinkphp-dome\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => '',
+    1 => NULL,
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'dnt' => '1',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'sec-fetch-site' => 'none',
+  'sec-fetch-mode' => 'navigate',
+  'sec-fetch-user' => '?1',
+  'sec-fetch-dest' => 'document',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-d9cd1fc1=da28a0e8-9b78-4912-8442-4b8d2f3e014a; PHPSESSID=19rhabgud72bvv8det5l7mvecm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ C:\Users\wcz\Documents\GitHub\thinkphp-dome\application\index\controller\Index.php ]
+[ info ] [ VIEW ] C:\Users\wcz\Documents\GitHub\thinkphp-dome\public/../application/index\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2020-04-16T15:49:39+08:00 ] 0.0.0.0 GET localhost/index/index/verify.html
+[运行时间：0.022995s] [吞吐率：43.49req/s] [内存消耗：252.74kb] [文件加载：53]
+[ info ] [ LANG ] C:\Users\wcz\Documents\GitHub\thinkphp-dome\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'index',
+    1 => 'index',
+    2 => 'verify',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/81.0.4044.92 Safari/537.36',
+  'dnt' => '1',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'sec-fetch-site' => 'same-origin',
+  'sec-fetch-mode' => 'no-cors',
+  'sec-fetch-dest' => 'image',
+  'referer' => 'http://localhost/',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7',
+  'cookie' => 'Phpstorm-d9cd1fc1=da28a0e8-9b78-4912-8442-4b8d2f3e014a; PHPSESSID=19rhabgud72bvv8det5l7mvecm',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->verify[ C:\Users\wcz\Documents\GitHub\thinkphp-dome\application\index\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ LOG ] INIT File

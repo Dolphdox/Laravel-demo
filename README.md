@@ -1,2 +1,5 @@
-# Laravel-demo
-这是一个小组作业, 使用laravel实现
+# [Project web address](http://gc.wcz0.net)
+
+This is an mc solution, including web application and Minecraft plugin.
+
+Web application use Laravel framework
